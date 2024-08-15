@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+
+body {
+    background-color: #000000;
+    margin: 0; 
+    font-family: Calibri;
+}
+
+#NavBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-bottom: solid 5px #746bb0;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+#capstone {
+    font-weight: bold;
+}
+
+.NavText {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Calibri", sans-serif;
+    padding-top: 10px;
+}
+
+.NavText:hover, a:hover {
+    color: #b1adcf;
+}
+
+.contact {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Calibri", sans-serif;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 500px;
+    border: solid 5px #746bb0;
+}
+  
+.flex {
+    margin-top: 50px;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Row1 {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+#Row2 {
+    display: flex;
+    justify-content: space-around;
+    border-radius:25px;
+    margin-top:50px;
+}
+    
+
+.Who{
+    font-size:75px;
+    border: solid 5px #746bb0;
+    border-radius: 25px;
+    padding: 50px;
+    color:#746bb0;
+    background-color:rgb(34, 38, 35);
+}
+
+#logo {
+    width: 150px;
+    margin-right: 800px;
+    margin-left: 100px;
+}
+
+h1 {
+    color: #746bb0;
+    font-size: 75px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.Breif {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    text-align: center;
+}
+#BreifTxt {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 50px;
+}
+#BreifImg {
+    width: 1000px;
+    margin-top: -200px
+}
+
+.LinkedIn {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media (max-width: 1569px) {
+    #BreifTxt {
+        color: #ffffff;
+        font-size: 18px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 1517px) {
+    #BreifTxt {
+        color: #ffffff;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    h1 {
+        color: #746bb0;
+        font-size: 65px;
+        margin-left: 150px;
+        margin-top: 150px;
+    }
+
+}
+
+@media (max-width: 1558px) {
+    #BreifImg {
+        width: 800px;
+        margin-top: -200px
+    }
+
+}
+
+@media (max-width: 1392px) {
+    #BreifImg {
+        width: 600px;
+        margin-top: -200px
+    }
+
+}
+
+@media (max-width: 1192px) {
+    #BreifImg {
+        width: 500px;
+        margin-top: -200px
+    }
+
+}
+
+@media (max-width: 1100px) {
+    #BreifImg {
+        width: 450px;
+        margin-top: -200px
+    }
+
+}
+
+@media (max-width: 1040px) {
+    #BreifImg {
+        width: 400px;
+        margin-top: -200px
+    }
+    #BreifTxt {
+        color: #ffffff;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
+}
+
+@media (max-width: 990px) {
+    #BreifImg {
+        width: 350px;
+        margin-top: -100px
+    }
+    #BreifTxt {
+        color: #ffffff;
+        font-size: 10px;
+        margin-left: 100px;
+    }
+
+}
+
+@media (max-width: 1355px) {
+    #logo {
+        width: 150px;
+        margin-right: 600px;
+        margin-left: 100px;
+    }
+
+}
+
+@media (max-width: 1166px) {
+    #logo {
+        width: 150px;
+        margin-right: 400px;
+        margin-left: 100px;
+    }
+
+}
+
+@media (max-width: 955px) {
+    #logo {
+        width: 150px;
+        margin-right: 300px;
+        margin-left: 100px;
+    }
+
+}
+@media (max-width: 838px) {
+    #logo {
+        width: 150px;
+        margin-right: 200px;
+        margin-left: 100px;
+    }
+
+}
+
+@media (max-width: 726px) {
+    #logo {
+        width: 150px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+}
